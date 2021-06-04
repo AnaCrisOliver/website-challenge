@@ -1,0 +1,108 @@
+.property {
+    margin: 26px;
+    flex: 1 1 300px;   
+    overflow: auto;
+    background-color: white;
+    padding: 15px;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px grey;
+    transition: transform .2s;
+}
+
+.property__img,
+.description__details,
+.description__details div,
+.description__value h5,
+.description__value h4 {
+    display: flex;
+}
+
+.property__header, 
+.description__service {
+    display: block;
+}
+
+.description__item-title {
+    margin-left: 5px;
+}
+
+.property__img,
+.description__details div {
+    align-items: center;
+    justify-content: center;
+}
+
+.property__img {
+    max-width: 100%;
+}
+
+.description__item-title,
+.description__value h5,
+.description__service h5 {
+    font-weight: 500;
+}
+
+.property__header picture img {
+    width: 340px;
+    height: 180px;
+    object-fit: cover;
+    border: solid transparent;
+    border-radius: 10px;
+}
+
+.description__details {
+    justify-content: space-around;
+}
+
+.description__details div {
+    width: 33%;
+    flex-wrap: nowrap;
+    margin: 3px;
+    border: 1.7px solid #c1c1c1;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.description__details div h5 {
+    margin-left: 5px;
+}
+
+.description__property-price {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+}
+
+.description__property-price h5, 
+.description__property-price h4 {
+    margin: 10px;
+}
+
+.description__value h5,
+.description__value h4 {
+    justify-content:flex-end;
+}
+
+.description__highlighted-info h3{
+    padding: 10px;
+}
+
+.property:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 480px) {
+ 
+    .property {
+        margin: 8px;
+        padding: 10px;  
+    }
+
+    .property__img {
+        min-width: 100px;
+        max-width: 100%;
+        overflow: auto;
+    }
+}

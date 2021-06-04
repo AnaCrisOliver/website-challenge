@@ -1,0 +1,15 @@
+.facilities__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.facilities__item {
+    display: inline-flex;
+    align-items: center;
+}
+
+.facilities__item p {
+    margin: 0px 7px 0px 7px;
+}

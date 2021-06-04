@@ -1,0 +1,31 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: calc(24px + (26 - 24) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h2 {
+    font-size: calc(22px + (24 - 22) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h3 {
+    font-size: calc(20px + (22 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h4 {
+    font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h5 {
+    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h6 {
+    font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+p {
+    font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
